@@ -104,21 +104,25 @@ footer {
 /* --- Responsividade --- */
 @media (max-width: 850px) {
   #page {
-    width: 95%;   /* ocupa quase toda a tela */
+    width: 95%;
     min-height: auto;
-    padding: 24px; /* mantém o mesmo respiro do desktop */
+    padding: 24px;
   }
 
   img {
-    width: 150px; /* mantém mesmo tamanho do desktop */
+    width: 150px;
     height: 150px;
   }
 
   h1 {
-    font-size: 40px; /* igual desktop */
+    font-size: 40px;
   }
 
   h2 {
-    font-size: 24px; /* igual desktop */
+    font-size: 24px;
+  }
+
+  footer {
+    color: #B7946E; /* força a mesma cor no mobile */
   }
 }
