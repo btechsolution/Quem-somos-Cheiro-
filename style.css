@@ -108,7 +108,7 @@ footer {
     min-height: auto;       /* container cresce conforme o conteúdo */
     padding: 24px;          /* mantém respiro interno */
     border-radius: 24px;    /* mantém bordas arredondadas */
-    background-color: rgba(249, 249, 249, 0.2); /* mantém fundo semi-transparente */
+    background-color: rgba(249, 249, 249, 0.10); /* mantém fundo semi-transparente */
   }
 
   img {
